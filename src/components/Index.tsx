@@ -5,7 +5,7 @@ import Footer from "./partials/Footer";
 export default function Index() {
   return (
     <div>
-      <Navbar />
+      <Navbar user={{ name: "user", username: "adfaadf" }} />
       <div className="banner section">
         <h1>Find Affordable Healthcare</h1>
         <p>

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div className="footer section">
-      {/* <img src="/images/footer.png" onclick="window.location.href = '/';">   */}
+      <img src="/images/footer.png" alt=""/>  
       <h2>TVASTRA</h2>
       <ul className="links">
         <li>

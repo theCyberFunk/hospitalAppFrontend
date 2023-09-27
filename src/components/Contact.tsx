@@ -4,7 +4,7 @@ import Footer from "./partials/Footer";
 export default function Contact() {
   return (
     <div>
-      <Navbar />
+      <Navbar user={{ name: "user", username: "adfaadf" }} />
       <div className="banner section">
         <h1>Contact Us</h1>
         <p>Home / Contact Us</p>
@@ -38,13 +38,34 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* <form action="/contact" method="POST">
-                    <input className="input1" type="text" name="name" placeholder="Enter your name">
-                    <input className="input2" type="text" name="email" placeholder="Enter email address">
-                    <input className="input3" type="text" name="subject" placeholder="Enter subject">
-                    <textarea name="message" id="input4" cols="30" rows="20" placeholder="Enter Message"></textarea>
-                    <button>Send Message</button>
-                </form> */}
+          <form action="/contact" method="POST">
+            <input
+              className="input1"
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+            />
+            <input
+              className="input2"
+              type="text"
+              name="email"
+              placeholder="Enter email address"
+            />
+            <input
+              className="input3"
+              type="text"
+              name="subject"
+              placeholder="Enter subject"
+            />
+            <textarea
+              name="message"
+              id="input4"
+              cols={30}
+              rows={20}
+              placeholder="Enter Message"
+            ></textarea>
+            <button>Send Message</button>
+          </form>
         </div>
       </div>
       <Footer></Footer>

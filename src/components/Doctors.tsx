@@ -4,8 +4,7 @@ import Footer from "./partials/Footer";
 export default function Doctors() {
   return (
     <div>
-      <Navbar />
-
+      <Navbar user={{ name: "user", username: "adfaadf" }} />
       <div className="banner section">
         <p>
           Hospitals in{" "}
@@ -31,12 +30,12 @@ export default function Doctors() {
               </div>
             </div>
             <div className="options">
-              {/* <div className="option"><input type="checkbox"><label for="">DLF Cyber City</label></div> */}
-              {/* <div className="option"><input type="checkbox"><label for="">Dwaraka</label></div> */}
-              {/* <div className="option"><input type="checkbox"><label for="">Lajpat Nagar</label></div> */}
-              {/* <div className="option"><input type="checkbox"><label for="">Palam Vihar</label></div> */}
-              {/* <div className="option"><input type="checkbox"><label for="">Punjabi Baag</label></div> */}
-              {/* <div className="option"><input type="checkbox"><label for="">Pusa Road</label></div> */}
+              <div className="option"><input type="checkbox"/><label htmlFor="">DLF Cyber City</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Dwaraka</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Lajpat Nagar</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Palam Vihar</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Punjabi Baag</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Pusa Road</label></div>
             </div>
             <button>+ Show more</button>
           </div>
@@ -50,12 +49,12 @@ export default function Doctors() {
               </div>
             </div>
             <div className="options">
-              {/* <div className="option"><input type="checkbox"><label for="">Multi Organ Transplant</label></div> */}
-              {/* <div className="option"><input type="checkbox"><label for="">Orthopedic Surgery</label></div> */}
-              {/* <div className="option"><input type="checkbox"><label for="">Infertility Treatment</label></div> */}
-              {/* <div className="option"><input type="checkbox"><label for="">Dentistry</label></div> */}
-              {/* <div className="option"><input type="checkbox"><label for="">Cardiology</label></div> */}
-              {/* <div className="option"><input type="checkbox"><label for="">Cancer</label></div> */}
+              <div className="option"><input type="checkbox"/><label htmlFor="">Multi Organ Transplant</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Orthopedic Surgery</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Infertility Treatment</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Dentistry</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Cardiology</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Cancer</label></div>
             </div>
             <button>+ Show more</button>
           </div>
@@ -69,12 +68,12 @@ export default function Doctors() {
               </div>
             </div>
             <div className="options">
-              {/* <div className="option"><input type="checkbox"><label for="">Apollo Hospital</label></div>
-                        <div className="option"><input type="checkbox"><label for="">Manipal North Side Hospital</label></div>
-                        <div className="option"><input type="checkbox"><label for="">Northstar</label></div>
-                        <div className="option"><input type="checkbox"><label for="">AIIMs</label></div>
-                        <div className="option"><input type="checkbox"><label for="">Fortis Hospital</label></div>
-                        <div className="option"><input type="checkbox"><label for="">Elbit Diagnostics</label></div> */}
+              <div className="option"><input type="checkbox"/><label htmlFor="">Apollo Hospital</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Manipal North Side Hospital</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Northstar</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">AIIMs</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Fortis Hospital</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">Elbit Diagnostics</label></div>
             </div>
             <button>+ Show more</button>
           </div>
@@ -88,12 +87,12 @@ export default function Doctors() {
               </div>
             </div>
             <div className="options">
-              {/* <div className="option"><input type="checkbox"><label for="">30+</label></div>
-                        <div className="option"><input type="checkbox"><label for="">25+</label></div>
-                        <div className="option"><input type="checkbox"><label for="">20+</label></div>
-                        <div className="option"><input type="checkbox"><label for="">15+</label></div>
-                        <div className="option"><input type="checkbox"><label for="">10+</label></div>
-                        <div className="option"><input type="checkbox"><label for="">5+</label></div> */}
+              <div className="option"><input type="checkbox"/><label htmlFor="">30+</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">25+</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">20+</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">15+</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">10+</label></div>
+              <div className="option"><input type="checkbox"/><label htmlFor="">5+</label></div>
             </div>
           </div>
         </div>
@@ -124,10 +123,10 @@ export default function Doctors() {
                   <p>asdf</p>
                 </div>
               </div>
-              {/* <button onclick="window.location.href = '/appointment';">Book an appointment</button> */}
+              <a href="/appointment"><button>Book an appointment</button></a>
             </div>
             <div className="image">
-              {/* <img src="/images/image--002.jpg" alt="Duke Sanson"> */}
+              <img src="/images/image--002.jpg" alt="Duke Sanson"/>
             </div>
           </div>
           <div className="card">
@@ -158,7 +157,7 @@ export default function Doctors() {
               <button>Book an appointment</button>
             </div>
             <div className="image">
-              {/* <img src="/images/image--004.jpg" alt="Georgia Peter"> */}
+              <img src="/images/image--004.jpg" alt="Georgia Peter"/>
             </div>
           </div>
           <div className="card">
@@ -189,7 +188,7 @@ export default function Doctors() {
               <button>Book an appointment</button>
             </div>
             <div className="image">
-              {/* <img src="/images/image--005.jpg" alt="Charlie Moon"> */}
+              <img src="/images/image--005.jpg" alt="Charlie Moon"/>
             </div>
           </div>
           <div className="card">
@@ -220,7 +219,7 @@ export default function Doctors() {
               <button>Book an appointment</button>
             </div>
             <div className="image">
-              {/* <img src="/images/image--003.jpg" alt="Rose Moon"> */}
+              <img src="/images/image--003.jpg" alt="Rose Moon"/>
             </div>
           </div>
           <div className="card">
@@ -251,7 +250,7 @@ export default function Doctors() {
               <button>Book an appointment</button>
             </div>
             <div className="image">
-              {/* <img src="/images/image--006.jpg" alt="Shubham Shinde"> */}
+              <img src="/images/image--006.jpg" alt="Shubham Shinde"/>
             </div>
           </div>
         </div>

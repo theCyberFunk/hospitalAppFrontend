@@ -3,7 +3,7 @@ import Navbar from "./partials/Navbar";
 export default function Login() {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar user={{ name: "user", username: "adfaadf" }} />
       <div className="main">
         <div className="box">
           <div className="head">

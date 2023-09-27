@@ -4,7 +4,7 @@ import Footer from "./partials/Footer";
 export default function Index() {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar user={{ name: "user", username: "adfaadf" }} />
       <div className="banner section">
         <main>
           <h1>Living healthy matters.</h1>
@@ -40,8 +40,8 @@ export default function Index() {
             expedita dolor veritatis autem dolore
           </p>
         </div>
-        {/* <div className="sign"><img src="/images/signature.png" alt=""></div> */}
-        {/* <div className="image"><img src="/images/femaleDoctor.png" alt=""></div> */}
+        <div className="sign"><img src="/images/signature.png" alt=""/></div>
+        <div className="image"><img src="/images/femaleDoctor.png" alt=""/></div>
       </div>
 
       <div className="stats section">
